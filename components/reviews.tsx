@@ -10,12 +10,12 @@ import { Phone } from "./phone";
 import { MaxWidthWrapper } from "./max-width-wrapper";
 
 const PHONES = [
+  "/design/8.png",
   "/design/1.png",
   "/design/2.png",
-  "/design/7.jpg",
+  "/design/9.png",
   "/design/5.png",
   "/design/6.png",
-  "/design/7.jpg",
 ];
 
 function splitArray<T>(array: Array<T>, numParts: number) {
@@ -122,7 +122,7 @@ function ReviewGrid() {
   return (
     <div
       ref={containerRef}
-      className="relative -mx-4 grid h-[49rem] max-h-[150vh] grid-cols-1 items-start gap-8 overflow-hidden px-4 sm:mt-20 md:grid-cols-2 lg:grid-cols-3"
+      className="relative -mx-4 grid h-[50rem] max-h-[150vh] grid-cols-1 items-start gap-8 overflow-hidden px-4 md:grid-cols-2 lg:grid-cols-3 "
     >
       {isInView ? (
         <>
@@ -151,8 +151,8 @@ function ReviewGrid() {
           />
         </>
       ) : null}
-      <div className="pointer-events-none absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-slate-100" />
-      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-slate-100" />
+      <div className="pointer-events-none absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-pink-200" />
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-pink-200" />
     </div>
   );
 }
@@ -163,20 +163,20 @@ export function Reviews() {
       <MaxWidthWrapper className="relative max-w-5xl">
         <img
           aria-hidden="true"
-          src="/design-2.png"
-          className="absolute w-80 select-none hidden xl:block -left-56 top-1/3"
+          src="/arrow.png"
+          className="absolute w-80 select-none hidden xl:block -left-44 top-1/3"
         />
 
         <ReviewGrid />
 
-        <button className="absolute xl:block hidden -left-48 top-[340px] bg-pink-500 text-white px-3 py-1 rounded-md font-bold">
+        <button className="absolute xl:block hidden -right-32 top-[300px] bg-pink-500 hover:bg-pink-500/80 text-white px-8 py-10 rounded-md font-bold text-lg">
           <a href="https://docs.google.com/document/d/19sMXhTJ3O8BM1pnoEIUGSglWGFGspVA3xrV9hAmgAtM/edit">
-            See it
+            Check it out
           </a>
         </button>
       </MaxWidthWrapper>
 
-      <button className="w-[90%] m-auto my-7 bg-pink-500 text-white px-3 py-2 flex justify-center items-center rounded-md font-bold xl:hidden ">
+      <button className="w-[90%] m-auto my-7 bg-pink-500 hover:bg-pink-500/80 text-white px-3 py-2 flex justify-center items-center rounded-md font-bold xl:hidden ">
         <a href="https://docs.google.com/document/d/19sMXhTJ3O8BM1pnoEIUGSglWGFGspVA3xrV9hAmgAtM/edit">
           See it
         </a>
