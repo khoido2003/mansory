@@ -13,9 +13,9 @@ const PHONES = [
   "/design/1.png",
   "/design/2.png",
   "/design/7.jpg",
-  "/design/7.jpg",
   "/design/5.png",
   "/design/6.png",
+  "/design/7.jpg",
 ];
 
 function splitArray<T>(array: Array<T>, numParts: number) {
