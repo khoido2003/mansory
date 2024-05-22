@@ -169,7 +169,7 @@ export function Reviews() {
 
         <ReviewGrid />
 
-        <button className="absolute xl:block hidden -right-32 top-[300px] bg-pink-500 hover:bg-pink-500/80 text-white px-8 py-10 rounded-md font-bold text-lg">
+        <button className="absolute xl:block hidden right-[430px] bottom-[0] bg-pink-500 hover:bg-pink-500/80 text-white px-6 py-3 rounded-md font-bold text-lg shadow-md">
           <a href="https://docs.google.com/document/d/19sMXhTJ3O8BM1pnoEIUGSglWGFGspVA3xrV9hAmgAtM/edit">
             Check it out
           </a>
