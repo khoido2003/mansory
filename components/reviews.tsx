@@ -10,12 +10,12 @@ import { Phone } from "./phone";
 import { MaxWidthWrapper } from "./max-width-wrapper";
 
 const PHONES = [
-  "/testimonials/1.jpg",
-  "/testimonials/2.jpg",
-  "/testimonials/3.jpg",
-  "/testimonials/4.jpg",
-  "/testimonials/5.jpg",
-  "/testimonials/6.jpg",
+  "/design/1.png",
+  "/design/2.png",
+  "/design/7.jpg",
+  "/design/7.jpg",
+  "/design/5.png",
+  "/design/6.png",
 ];
 
 function splitArray<T>(array: Array<T>, numParts: number) {
@@ -170,12 +170,16 @@ export function Reviews() {
         <ReviewGrid />
 
         <button className="absolute xl:block hidden -left-48 top-[340px] bg-pink-500 text-white px-3 py-1 rounded-md font-bold">
-          <a href="">See it</a>
+          <a href="https://docs.google.com/document/d/19sMXhTJ3O8BM1pnoEIUGSglWGFGspVA3xrV9hAmgAtM/edit">
+            See it
+          </a>
         </button>
       </MaxWidthWrapper>
 
       <button className="w-[90%] m-auto my-7 bg-pink-500 text-white px-3 py-2 flex justify-center items-center rounded-md font-bold xl:hidden ">
-        <a href="">See it</a>
+        <a href="https://docs.google.com/document/d/19sMXhTJ3O8BM1pnoEIUGSglWGFGspVA3xrV9hAmgAtM/edit">
+          See it
+        </a>
       </button>
     </>
   );
