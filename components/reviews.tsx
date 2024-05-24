@@ -169,18 +169,18 @@ export function Reviews() {
 
         <ReviewGrid />
 
-        <button className="absolute xl:block hidden right-[430px] bottom-[50px] bg-pink-500 hover:bg-pink-500/80 text-white px-6 py-3 rounded-md font-bold text-lg shadow-xl shadow-white">
-          <a href="https://docs.google.com/document/d/19sMXhTJ3O8BM1pnoEIUGSglWGFGspVA3xrV9hAmgAtM/edit">
+        <a href="https://docs.google.com/document/d/19sMXhTJ3O8BM1pnoEIUGSglWGFGspVA3xrV9hAmgAtM/edit">
+          <button className="absolute xl:block hidden right-[430px] bottom-[50px] bg-pink-500 hover:bg-pink-500/80 text-white px-6 py-3 rounded-md font-bold text-lg shadow-xl shadow-white">
             Check it out
-          </a>
-        </button>
+          </button>
+        </a>
       </MaxWidthWrapper>
 
-      <button className="w-[90%] m-auto my-7 bg-pink-500 hover:bg-pink-500/80 text-white px-3 py-2 flex justify-center items-center rounded-md font-bold xl:hidden ">
-        <a href="https://docs.google.com/document/d/19sMXhTJ3O8BM1pnoEIUGSglWGFGspVA3xrV9hAmgAtM/edit">
+      <a href="https://docs.google.com/document/d/19sMXhTJ3O8BM1pnoEIUGSglWGFGspVA3xrV9hAmgAtM/edit">
+        <button className="w-[90%] m-auto my-7 bg-pink-500 hover:bg-pink-500/80 text-white px-3 py-2 flex justify-center items-center rounded-md font-bold xl:hidden ">
           See it
-        </a>
-      </button>
+        </button>
+      </a>
     </>
   );
 }
